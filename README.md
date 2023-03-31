@@ -28,3 +28,12 @@ The algorithm to calculate the number of pairs of elements with a difference equ
     - Feature\FormControllerTest.php
     - Unit\Services\CalculatorServiceTest.php
     - DataProvider.php
+
+## Instalation steps and test
+1. $ git clone https://github.com/ortegavc/pair-calculator.git
+2. $ cd  pair-calculator
+3. $ composer install
+4. $ php -r "file_exists('.env') || copy('.env.example', '.env');"
+5. $ php artisan key:generate
+6. $ php artisan serve
+7. Open the link http://127.0.0.1:8000
